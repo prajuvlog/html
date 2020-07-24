@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /*body, html {
+     height: 100%;
+        }
+        div{
+            background-image: url("ab2.jpg");
+        }*/
+        .flex-container {
+            display:flex;
+            justify-content:flex-start;
+            background-color:powderblue;
+            color: black;
+        }
+
+        .flex-container > div {
+            width: 300px;
+            margin:10px;
+            padding: 20px;
+            font-size:30px;
+            border:2px solid black;
+        }
+
+        div
+         {
+                     flex-shrink: 3;
+        }
+        
+    </style>
+    <body>
+        <ul class="w3-ul">
+
+            <li class="w3-jumbo w3-teal"><i class="fa fa-home"></i> Home</li>
+        </ul>
+
+        <div class="flex-container">
+           <div> 
+            <h6>To DO</h6>
+            <input type="text" value="Learn HTML"><br />
+            <input type="text" value="Learn CSS"><br />
+            <input type="text" value="Learn JavaScript"><br />
+            <h6>Add another list</h6>
+        </div>
+        <div>
+            <h6>Doing</h6>
+            <input type="text" value="Prepare resume"><br />
+            <textarea rows="6"></textarea><br />
+            <button>Add Card</button>
+        </div>
+        <div>
+            <h6>Testing/Verifying</h6>
+            <input type="text" value="Twitter app frontend"><br />
+            <h6>Add another card</h6>
+        </div>
+        <div>
+            <h6>Deploying</h6>
+            <input type="text" value="Twitter app frontend"><br />
+            <h6>Add another card</h6>
+        </div>
+        <div>
+            <h6>Done</h6>
+            <h6>Add card</h6>
+        </div>
+        <div>
+           <h6> Add another lsit</h6>
+        </div>
+    </div>
+    </body>
